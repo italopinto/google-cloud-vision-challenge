@@ -42,6 +42,7 @@ async function textScraping(image){
     return greaterString(result1, result2);
   } catch (error) {
     console.error(error);
+    throw error;
   }
 }
 
